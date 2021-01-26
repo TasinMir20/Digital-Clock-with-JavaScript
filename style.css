@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url("LibreBaskerville-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clock-area {
+    width: 250px;
+    padding: 10px 20px;
+    background-color: rgb(18, 19, 18);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock-area .clock {
+    font-size: 30px;
+    display: block;
+    font-weight: bold;
+    font-family: Libre Baskerville;
+    color: #ffe630;
+}
